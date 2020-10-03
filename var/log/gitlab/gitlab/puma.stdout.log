@@ -1,0 +1,108 @@
+=== puma startup: 2020-10-04 03:11:27 +0530 ===
+{"timestamp":"2020-10-03T21:41:27.618Z","pid":784,"message":"- Worker 0 (pid: 925) booted, phase: 0"}
+{"timestamp":"2020-10-03T21:41:27.642Z","pid":784,"message":"- Worker 2 (pid: 931) booted, phase: 0"}
+{"timestamp":"2020-10-03T21:41:27.649Z","pid":784,"message":"- Worker 1 (pid: 928) booted, phase: 0"}
+{"timestamp":"2020-10-03T21:41:47.570Z","pid":784,"message":"PumaWorkerKiller: Consuming 2243.0078125 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:41:58.388Z","pid":925,"message":"! Detected parent died, dying"}
+{"timestamp":"2020-10-03T21:41:58.389Z","pid":928,"message":"! Detected parent died, dying"}
+{"timestamp":"2020-10-03T21:41:58.389Z","pid":931,"message":"! Detected parent died, dying"}
+=== puma startup: 2020-10-04 03:12:55 +0530 ===
+{"timestamp":"2020-10-03T21:42:55.766Z","pid":1014,"message":"- Worker 0 (pid: 1195) booted, phase: 0"}
+{"timestamp":"2020-10-03T21:42:55.778Z","pid":1014,"message":"- Worker 1 (pid: 1198) booted, phase: 0"}
+{"timestamp":"2020-10-03T21:42:55.791Z","pid":1014,"message":"- Worker 2 (pid: 1201) booted, phase: 0"}
+{"timestamp":"2020-10-03T21:43:15.726Z","pid":1014,"message":"PumaWorkerKiller: Consuming 2220.26171875 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:43:35.727Z","pid":1014,"message":"PumaWorkerKiller: Consuming 2220.26953125 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:43:55.728Z","pid":1014,"message":"PumaWorkerKiller: Consuming 2220.26953125 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:44:15.733Z","pid":1014,"message":"PumaWorkerKiller: Consuming 2220.26953125 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:44:35.734Z","pid":1014,"message":"PumaWorkerKiller: Consuming 2222.1484375 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:44:55.736Z","pid":1014,"message":"PumaWorkerKiller: Consuming 2222.1796875 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:45:15.738Z","pid":1014,"message":"PumaWorkerKiller: Consuming 2238.43359375 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:45:35.740Z","pid":1014,"message":"PumaWorkerKiller: Consuming 2246.90234375 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:45:55.741Z","pid":1014,"message":"PumaWorkerKiller: Consuming 2258.4609375 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:46:15.742Z","pid":1014,"message":"PumaWorkerKiller: Consuming 2258.47265625 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:46:19.518Z","pid":1198,"message":"! Detected parent died, dying"}
+{"timestamp":"2020-10-03T21:46:19.518Z","pid":1201,"message":"! Detected parent died, dying"}
+{"timestamp":"2020-10-03T21:46:19.520Z","pid":1195,"message":"! Detected parent died, dying"}
+=== puma startup: 2020-10-04 03:23:05 +0530 ===
+{"timestamp":"2020-10-03T21:53:05.572Z","pid":643,"message":"- Worker 0 (pid: 839) booted, phase: 0"}
+{"timestamp":"2020-10-03T21:53:05.590Z","pid":643,"message":"- Worker 1 (pid: 842) booted, phase: 0"}
+{"timestamp":"2020-10-03T21:53:05.598Z","pid":643,"message":"- Worker 2 (pid: 845) booted, phase: 0"}
+{"timestamp":"2020-10-03T21:53:08.357Z","pid":845,"message":"! Detected parent died, dying"}
+{"timestamp":"2020-10-03T21:53:08.357Z","pid":839,"message":"! Detected parent died, dying"}
+{"timestamp":"2020-10-03T21:53:08.357Z","pid":842,"message":"! Detected parent died, dying"}
+=== puma startup: 2020-10-04 03:24:02 +0530 ===
+{"timestamp":"2020-10-03T21:54:02.447Z","pid":873,"message":"- Worker 0 (pid: 1054) booted, phase: 0"}
+{"timestamp":"2020-10-03T21:54:02.471Z","pid":873,"message":"- Worker 1 (pid: 1057) booted, phase: 0"}
+{"timestamp":"2020-10-03T21:54:02.476Z","pid":873,"message":"- Worker 2 (pid: 1060) booted, phase: 0"}
+{"timestamp":"2020-10-03T21:54:22.375Z","pid":873,"message":"PumaWorkerKiller: Consuming 2245.49609375 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:54:42.377Z","pid":873,"message":"PumaWorkerKiller: Consuming 2245.5 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:55:02.381Z","pid":873,"message":"PumaWorkerKiller: Consuming 2245.51171875 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:55:22.384Z","pid":873,"message":"PumaWorkerKiller: Consuming 2245.51171875 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:55:42.389Z","pid":873,"message":"PumaWorkerKiller: Consuming 2245.51171875 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:56:02.390Z","pid":873,"message":"PumaWorkerKiller: Consuming 2245.51953125 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:56:22.391Z","pid":873,"message":"PumaWorkerKiller: Consuming 2245.51953125 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:56:42.393Z","pid":873,"message":"PumaWorkerKiller: Consuming 2245.51953125 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:57:02.396Z","pid":873,"message":"PumaWorkerKiller: Consuming 2245.52734375 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:57:22.399Z","pid":873,"message":"PumaWorkerKiller: Consuming 2247.4140625 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:57:42.400Z","pid":873,"message":"PumaWorkerKiller: Consuming 2247.45703125 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:58:02.400Z","pid":873,"message":"PumaWorkerKiller: Consuming 2247.45703125 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:58:22.413Z","pid":873,"message":"PumaWorkerKiller: Consuming 2247.46484375 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T21:58:29.243Z","pid":1054,"message":"! Detected parent died, dying"}
+{"timestamp":"2020-10-03T21:58:29.243Z","pid":1060,"message":"! Detected parent died, dying"}
+{"timestamp":"2020-10-03T21:58:29.243Z","pid":1057,"message":"! Detected parent died, dying"}
+=== puma startup: 2020-10-04 03:30:23 +0530 ===
+{"timestamp":"2020-10-03T22:00:23.338Z","pid":623,"message":"- Worker 0 (pid: 802) booted, phase: 0"}
+{"timestamp":"2020-10-03T22:00:23.363Z","pid":623,"message":"- Worker 1 (pid: 805) booted, phase: 0"}
+{"timestamp":"2020-10-03T22:00:23.364Z","pid":623,"message":"- Worker 2 (pid: 808) booted, phase: 0"}
+{"timestamp":"2020-10-03T22:00:43.298Z","pid":623,"message":"PumaWorkerKiller: Consuming 2220.13671875 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:01:03.299Z","pid":623,"message":"PumaWorkerKiller: Consuming 2220.140625 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:01:23.300Z","pid":623,"message":"PumaWorkerKiller: Consuming 2220.140625 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:01:43.301Z","pid":623,"message":"PumaWorkerKiller: Consuming 2220.140625 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:02:03.302Z","pid":623,"message":"PumaWorkerKiller: Consuming 2234.7109375 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:02:23.303Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.37109375 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:02:43.304Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.3828125 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:03:03.305Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.3828125 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:03:23.308Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.40234375 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:03:43.314Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.40234375 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:04:03.315Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.40234375 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:04:23.316Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.47265625 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:04:43.317Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.48046875 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:05:03.318Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.48046875 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:05:23.318Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.48046875 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:05:43.320Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.48046875 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:06:03.320Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.5 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:06:23.322Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.5 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:06:43.323Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.5 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:07:03.324Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.5 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:07:23.325Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.5078125 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:07:43.326Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.5078125 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:08:03.327Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.5078125 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:08:23.328Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.5078125 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:08:43.329Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.52734375 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:09:03.331Z","pid":623,"message":"PumaWorkerKiller: Consuming 2240.52734375 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:09:23.331Z","pid":623,"message":"PumaWorkerKiller: Consuming 2241.421875 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:09:43.333Z","pid":623,"message":"PumaWorkerKiller: Consuming 2241.37109375 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:09:50.168Z","pid":805,"message":"! Detected parent died, dying"}
+{"timestamp":"2020-10-03T22:09:50.168Z","pid":808,"message":"! Detected parent died, dying"}
+{"timestamp":"2020-10-03T22:09:50.169Z","pid":802,"message":"! Detected parent died, dying"}
+=== puma startup: 2020-10-04 03:47:03 +0530 ===
+{"timestamp":"2020-10-03T22:17:03.946Z","pid":627,"message":"- Worker 0 (pid: 814) booted, phase: 0"}
+{"timestamp":"2020-10-03T22:17:03.966Z","pid":627,"message":"- Worker 1 (pid: 817) booted, phase: 0"}
+{"timestamp":"2020-10-03T22:17:03.986Z","pid":627,"message":"- Worker 2 (pid: 820) booted, phase: 0"}
+{"timestamp":"2020-10-03T22:17:23.890Z","pid":627,"message":"PumaWorkerKiller: Consuming 2244.5546875 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:17:36.717Z","pid":814,"message":"! Detected parent died, dying"}
+{"timestamp":"2020-10-03T22:17:36.717Z","pid":820,"message":"! Detected parent died, dying"}
+{"timestamp":"2020-10-03T22:17:36.717Z","pid":817,"message":"! Detected parent died, dying"}
+=== puma startup: 2020-10-04 04:01:15 +0530 ===
+{"timestamp":"2020-10-03T22:31:16.140Z","pid":615,"message":"- Worker 0 (pid: 794) booted, phase: 0"}
+{"timestamp":"2020-10-03T22:31:16.169Z","pid":615,"message":"- Worker 1 (pid: 797) booted, phase: 0"}
+{"timestamp":"2020-10-03T22:31:16.194Z","pid":615,"message":"- Worker 2 (pid: 800) booted, phase: 0"}
+{"timestamp":"2020-10-03T22:31:36.058Z","pid":615,"message":"PumaWorkerKiller: Consuming 2243.16015625 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:31:56.059Z","pid":615,"message":"PumaWorkerKiller: Consuming 2242.875 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:32:16.061Z","pid":615,"message":"PumaWorkerKiller: Consuming 2242.5546875 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:32:36.062Z","pid":615,"message":"PumaWorkerKiller: Consuming 2242.12890625 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:32:56.063Z","pid":615,"message":"PumaWorkerKiller: Consuming 2242.1328125 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:33:16.064Z","pid":615,"message":"PumaWorkerKiller: Consuming 2242.13671875 mb with master and 3 workers."}
+{"timestamp":"2020-10-03T22:33:21.487Z","pid":794,"message":"! Detected parent died, dying"}
+{"timestamp":"2020-10-03T22:33:21.487Z","pid":800,"message":"! Detected parent died, dying"}
+{"timestamp":"2020-10-03T22:33:21.487Z","pid":797,"message":"! Detected parent died, dying"}

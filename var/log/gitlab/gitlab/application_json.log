@@ -1,0 +1,79 @@
+# Logfile created on 2020-10-04 03:10:05 +0530 by logger.rb/66358
+{"severity":"WARN","time":"2020-10-03T21:40:05.780Z","correlation_id":null,"message":"Cached record for ApplicationSetting couldn't be loaded, falling back to uncached record: PG::UndefinedTable: ERROR:  relation \"application_settings\" does not exist\nLINE 1: SELECT \"application_settings\".* FROM \"application_settings\" ...\n                                             ^\n"}
+{"severity":"WARN","time":"2020-10-03T21:40:05.778Z","correlation_id":null,"message":"Cached record for ApplicationSetting couldn't be loaded, falling back to uncached record: PG::UndefinedTable: ERROR:  relation \"application_settings\" does not exist\nLINE 1: SELECT \"application_settings\".* FROM \"application_settings\" ...\n                                             ^\n"}
+{"severity":"DEBUG","time":"2020-10-03T21:40:06.065Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2020-10-03T21:40:07.356Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{":severity":"WARN",":time":"2020-10-03T21:40:26.125Z","correlation_id":null,":message":"Cached record for ApplicationSetting couldn't be loaded, falling back to uncached record: Relation has no current order and table has no primary key to be used as default order"}
+{":severity":"WARN",":time":"2020-10-03T21:40:26.328Z","correlation_id":null,":message":"Cached record for ApplicationSetting couldn't be loaded, falling back to uncached record: Relation has no current order and table has no primary key to be used as default order"}
+{"severity":"INFO","time":"2020-10-03T21:40:48.205Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-03T21:40:48.286Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionCreator","message":"Lock timeout is set","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2020-10-03T21:40:48.300Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_000000 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2020-10-03T21:40:48.311Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202010 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2020-10-03T21:40:48.498Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202011 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2020-10-03T21:40:48.517Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202012 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2020-10-03T21:40:48.531Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202101 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2020-10-03T21:40:48.543Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202102 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2020-10-03T21:40:48.567Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202103 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2020-10-03T21:40:48.602Z","correlation_id":null,"message":"Created partition audit_events_part_5fc467ac26_202104 for table audit_events_part_5fc467ac26"}
+{"severity":"INFO","time":"2020-10-03T21:40:48.602Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionCreator","message":"Migration finished","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2020-10-03T21:40:48.971Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-03T21:40:52.118Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-03T21:40:54.316Z","correlation_id":null,"message":"User \"Administrator\" (admin@example.com) was created"}
+{"severity":"INFO","time":"2020-10-03T21:40:54.821Z","correlation_id":null,"message":"Group \"GitLab Instance\" was created"}
+{"severity":"INFO","time":"2020-10-03T21:40:57.528Z","correlation_id":"cc1e03b8eb049bc29ad226460c67714e","message":"GitLab Instance created a new project \"GitLab Instance / Monitoring\""}
+{"severity":"ERROR","time":"2020-10-03T21:40:59.358Z","correlation_id":null,"message":"Cannot obtain an exclusive lease. There must be another instance already in execution."}
+{"severity":"INFO","time":"2020-10-03T21:41:23.863Z","correlation_id":"f771c9cfd606b8a0b665c23f16461334","message":"Emails disabled! Interceptor prevented sending mail Access to the GitLab Instance group was granted"}
+{":severity":"DEBUG",":time":"2020-10-03T21:41:24.800Z","correlation_id":null,":message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2020-10-03T21:41:26.084Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2020-10-03T21:41:27.569Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2020-10-03T21:41:27.583Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2020-10-03T21:41:27.606Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2020-10-03T21:41:27.598Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2020-10-03T21:41:30.495Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{":severity":"DEBUG",":time":"2020-10-03T21:41:49.880Z","correlation_id":null,":message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2020-10-03T21:41:51.034Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-03T21:42:25.327Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-03T21:42:25.653Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2020-10-03T21:42:55.726Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2020-10-03T21:42:55.739Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2020-10-03T21:42:55.750Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2020-10-03T21:42:55.761Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2020-10-03T21:45:38.298Z","correlation_id":"lqMvrUVMA86","message":"Emails disabled! Interceptor prevented sending mail Password Changed"}
+{":severity":"DEBUG",":time":"2020-10-03T21:52:33.771Z","correlation_id":null,":message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2020-10-03T21:52:34.981Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-03T21:52:35.022Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-03T21:52:35.060Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-03T21:52:39.371Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{":severity":"DEBUG",":time":"2020-10-03T21:53:00.087Z","correlation_id":null,":message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2020-10-03T21:53:01.498Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2020-10-03T21:53:05.441Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2020-10-03T21:53:05.524Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2020-10-03T21:53:05.543Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2020-10-03T21:53:05.545Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2020-10-03T21:53:31.395Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-03T21:53:31.572Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2020-10-03T21:54:02.391Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2020-10-03T21:54:02.415Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2020-10-03T21:54:02.428Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2020-10-03T21:54:02.439Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2020-10-03T21:59:48.326Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-03T21:59:48.338Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2020-10-03T22:00:23.297Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2020-10-03T22:00:23.311Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2020-10-03T22:00:23.323Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2020-10-03T22:00:23.336Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2020-10-03T22:02:05.895Z","correlation_id":"146d80e5ce865e0ab6b493bdf4da9e4e","message":"Failed Login: username=vladislav0151@bk.ru ip=172.18.0.1"}
+{"severity":"INFO","time":"2020-10-03T22:16:14.818Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-03T22:16:14.818Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2020-10-03T22:17:03.891Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2020-10-03T22:17:03.911Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2020-10-03T22:17:03.927Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2020-10-03T22:17:03.945Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2020-10-03T22:28:27.489Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-03T22:28:27.525Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-03T22:30:39.399Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-03T22:30:39.449Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2020-10-03T22:31:16.072Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2020-10-03T22:31:16.110Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2020-10-03T22:31:16.125Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2020-10-03T22:31:16.142Z","correlation_id":null,"message":"ActiveRecord connection established"}

@@ -1,0 +1,84 @@
+2020-10-03T21:40:05.777Z: Cached record for ApplicationSetting couldn't be loaded, falling back to uncached record: PG::UndefinedTable: ERROR:  relation "application_settings" does not exist
+LINE 1: SELECT "application_settings".* FROM "application_settings" ...
+                                             ^
+
+2020-10-03T21:40:05.779Z: Cached record for ApplicationSetting couldn't be loaded, falling back to uncached record: PG::UndefinedTable: ERROR:  relation "application_settings" does not exist
+LINE 1: SELECT "application_settings".* FROM "application_settings" ...
+                                             ^
+
+2020-10-03T21:40:06.064Z: ActiveRecord connection established
+2020-10-03T21:40:07.356Z: Checking state of dynamic postgres partitions
+2020-10-03T21:40:26.124Z: Cached record for ApplicationSetting couldn't be loaded, falling back to uncached record: Relation has no current order and table has no primary key to be used as default order
+2020-10-03T21:40:26.328Z: Cached record for ApplicationSetting couldn't be loaded, falling back to uncached record: Relation has no current order and table has no primary key to be used as default order
+2020-10-03T21:40:48.205Z: Checking state of dynamic postgres partitions
+2020-10-03T21:40:48.286Z: {:method=>"with_lock_retries", :class=>"Gitlab::Database::Partitioning::PartitionCreator", :message=>"Lock timeout is set", :current_iteration=>1, :lock_timeout_in_ms=>100}
+2020-10-03T21:40:48.300Z: Created partition audit_events_part_5fc467ac26_000000 for table audit_events_part_5fc467ac26
+2020-10-03T21:40:48.310Z: Created partition audit_events_part_5fc467ac26_202010 for table audit_events_part_5fc467ac26
+2020-10-03T21:40:48.498Z: Created partition audit_events_part_5fc467ac26_202011 for table audit_events_part_5fc467ac26
+2020-10-03T21:40:48.516Z: Created partition audit_events_part_5fc467ac26_202012 for table audit_events_part_5fc467ac26
+2020-10-03T21:40:48.530Z: Created partition audit_events_part_5fc467ac26_202101 for table audit_events_part_5fc467ac26
+2020-10-03T21:40:48.543Z: Created partition audit_events_part_5fc467ac26_202102 for table audit_events_part_5fc467ac26
+2020-10-03T21:40:48.567Z: Created partition audit_events_part_5fc467ac26_202103 for table audit_events_part_5fc467ac26
+2020-10-03T21:40:48.602Z: Created partition audit_events_part_5fc467ac26_202104 for table audit_events_part_5fc467ac26
+2020-10-03T21:40:48.602Z: {:method=>"with_lock_retries", :class=>"Gitlab::Database::Partitioning::PartitionCreator", :message=>"Migration finished", :current_iteration=>1, :lock_timeout_in_ms=>100}
+2020-10-03T21:40:48.971Z: Checking state of dynamic postgres partitions
+2020-10-03T21:40:52.118Z: Checking state of dynamic postgres partitions
+2020-10-03T21:40:54.295Z: User "Administrator" (admin@example.com) was created
+2020-10-03T21:40:54.819Z: Group "GitLab Instance" was created
+2020-10-03T21:40:57.527Z: GitLab Instance created a new project "GitLab Instance / Monitoring"
+2020-10-03T21:40:59.358Z: Cannot obtain an exclusive lease. There must be another instance already in execution.
+2020-10-03T21:41:23.863Z: Emails disabled! Interceptor prevented sending mail Access to the GitLab Instance group was granted
+2020-10-03T21:41:24.800Z: ActiveRecord connection established
+2020-10-03T21:41:26.083Z: Checking state of dynamic postgres partitions
+2020-10-03T21:41:27.569Z: ActiveRecord connection disconnected
+2020-10-03T21:41:27.583Z: ActiveRecord connection established
+2020-10-03T21:41:27.595Z: ActiveRecord connection established
+2020-10-03T21:41:27.606Z: ActiveRecord connection established
+2020-10-03T21:41:30.495Z: Checking state of dynamic postgres partitions
+2020-10-03T21:41:49.880Z: ActiveRecord connection established
+2020-10-03T21:41:51.034Z: Checking state of dynamic postgres partitions
+2020-10-03T21:42:25.327Z: Checking state of dynamic postgres partitions
+2020-10-03T21:42:25.653Z: Checking state of dynamic postgres partitions
+2020-10-03T21:42:55.726Z: ActiveRecord connection disconnected
+2020-10-03T21:42:55.739Z: ActiveRecord connection established
+2020-10-03T21:42:55.750Z: ActiveRecord connection established
+2020-10-03T21:42:55.760Z: ActiveRecord connection established
+2020-10-03T21:45:38.298Z: Emails disabled! Interceptor prevented sending mail Password Changed
+2020-10-03T21:52:33.771Z: ActiveRecord connection established
+2020-10-03T21:52:34.981Z: Checking state of dynamic postgres partitions
+2020-10-03T21:52:35.019Z: Checking state of dynamic postgres partitions
+2020-10-03T21:52:35.060Z: Checking state of dynamic postgres partitions
+2020-10-03T21:52:39.371Z: Checking state of dynamic postgres partitions
+2020-10-03T21:53:00.086Z: ActiveRecord connection established
+2020-10-03T21:53:01.498Z: Checking state of dynamic postgres partitions
+2020-10-03T21:53:05.441Z: ActiveRecord connection disconnected
+2020-10-03T21:53:05.523Z: ActiveRecord connection established
+2020-10-03T21:53:05.536Z: ActiveRecord connection established
+2020-10-03T21:53:05.544Z: ActiveRecord connection established
+2020-10-03T21:53:31.395Z: Checking state of dynamic postgres partitions
+2020-10-03T21:53:31.571Z: Checking state of dynamic postgres partitions
+2020-10-03T21:54:02.376Z: ActiveRecord connection disconnected
+2020-10-03T21:54:02.414Z: ActiveRecord connection established
+2020-10-03T21:54:02.428Z: ActiveRecord connection established
+2020-10-03T21:54:02.438Z: ActiveRecord connection established
+2020-10-03T21:59:48.326Z: Checking state of dynamic postgres partitions
+2020-10-03T21:59:48.338Z: Checking state of dynamic postgres partitions
+2020-10-03T22:00:23.297Z: ActiveRecord connection disconnected
+2020-10-03T22:00:23.310Z: ActiveRecord connection established
+2020-10-03T22:00:23.322Z: ActiveRecord connection established
+2020-10-03T22:00:23.336Z: ActiveRecord connection established
+2020-10-03T22:02:05.882Z: Failed Login: username=vladislav0151@bk.ru ip=172.18.0.1
+2020-10-03T22:16:14.803Z: Checking state of dynamic postgres partitions
+2020-10-03T22:16:14.803Z: Checking state of dynamic postgres partitions
+2020-10-03T22:17:03.889Z: ActiveRecord connection disconnected
+2020-10-03T22:17:03.908Z: ActiveRecord connection established
+2020-10-03T22:17:03.925Z: ActiveRecord connection established
+2020-10-03T22:17:03.945Z: ActiveRecord connection established
+2020-10-03T22:28:27.489Z: Checking state of dynamic postgres partitions
+2020-10-03T22:28:27.525Z: Checking state of dynamic postgres partitions
+2020-10-03T22:30:39.399Z: Checking state of dynamic postgres partitions
+2020-10-03T22:30:39.449Z: Checking state of dynamic postgres partitions
+2020-10-03T22:31:16.054Z: ActiveRecord connection disconnected
+2020-10-03T22:31:16.106Z: ActiveRecord connection established
+2020-10-03T22:31:16.122Z: ActiveRecord connection established
+2020-10-03T22:31:16.141Z: ActiveRecord connection established
