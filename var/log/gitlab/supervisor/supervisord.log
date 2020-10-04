@@ -514,3 +514,322 @@
 2020-10-04 04:05:50,678 INFO stopped: gitlab-workhorse (terminated by SIGTERM)
 2020-10-04 04:05:50,912 INFO stopped: puma (terminated by SIGQUIT (core dumped))
 2020-10-04 04:05:50,930 INFO stopped: gitaly (exit status 0)
+2020-10-04 23:35:32,908 CRIT Supervisor running as root (no user in config file)
+2020-10-04 23:35:32,961 INFO Included extra file "/etc/supervisor/conf.d/cron.conf" during parsing
+2020-10-04 23:35:32,961 INFO Included extra file "/etc/supervisor/conf.d/gitaly.conf" during parsing
+2020-10-04 23:35:32,961 INFO Included extra file "/etc/supervisor/conf.d/gitlab-workhorse.conf" during parsing
+2020-10-04 23:35:32,961 INFO Included extra file "/etc/supervisor/conf.d/groups.conf" during parsing
+2020-10-04 23:35:32,961 INFO Included extra file "/etc/supervisor/conf.d/mail_room.conf" during parsing
+2020-10-04 23:35:32,961 INFO Included extra file "/etc/supervisor/conf.d/nginx.conf" during parsing
+2020-10-04 23:35:32,962 INFO Included extra file "/etc/supervisor/conf.d/puma.conf" during parsing
+2020-10-04 23:35:32,962 INFO Included extra file "/etc/supervisor/conf.d/sidekiq.conf" during parsing
+2020-10-04 23:35:32,962 INFO Included extra file "/etc/supervisor/conf.d/sshd.conf" during parsing
+2020-10-04 23:35:33,043 INFO RPC interface 'supervisor' initialized
+2020-10-04 23:35:33,043 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-10-04 23:35:33,043 INFO supervisord started with pid 1
+2020-10-04 23:35:34,079 INFO spawned: 'gitaly' with pid 626
+2020-10-04 23:35:34,111 INFO spawned: 'puma' with pid 627
+2020-10-04 23:35:34,117 INFO spawned: 'gitlab-workhorse' with pid 628
+2020-10-04 23:35:34,119 INFO spawned: 'sidekiq' with pid 629
+2020-10-04 23:35:34,123 INFO spawned: 'nginx' with pid 630
+2020-10-04 23:35:34,127 INFO spawned: 'sshd' with pid 631
+2020-10-04 23:35:34,129 INFO spawned: 'cron' with pid 632
+2020-10-04 23:35:35,133 INFO success: gitaly entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:35:35,133 INFO success: puma entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:35:35,133 INFO success: gitlab-workhorse entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:35:35,133 INFO success: sidekiq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:35:35,133 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:35:35,134 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:35:35,134 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:47:53,599 WARN received SIGTERM indicating exit request
+2020-10-04 23:47:53,740 INFO waiting for gitaly, puma, gitlab-workhorse, sidekiq, nginx, sshd, cron to die
+2020-10-04 23:47:53,851 INFO stopped: sshd (exit status 0)
+2020-10-04 23:47:53,852 INFO stopped: cron (terminated by SIGTERM)
+2020-10-04 23:47:54,065 INFO stopped: nginx (exit status 0)
+2020-10-04 23:47:55,794 INFO stopped: sidekiq (exit status 0)
+2020-10-04 23:47:55,809 INFO stopped: gitlab-workhorse (terminated by SIGTERM)
+2020-10-04 23:47:56,812 INFO waiting for gitaly, puma to die
+2020-10-04 23:47:58,595 INFO reaped unknown pid 824
+2020-10-04 23:47:58,596 INFO reaped unknown pid 827
+2020-10-04 23:47:58,596 INFO reaped unknown pid 830
+2020-10-04 23:47:58,639 INFO stopped: puma (terminated by SIGQUIT (core dumped))
+2020-10-04 23:47:58,871 INFO stopped: gitaly (exit status 0)
+2020-10-04 23:52:34,440 CRIT Supervisor running as root (no user in config file)
+2020-10-04 23:52:34,440 INFO Included extra file "/etc/supervisor/conf.d/cron.conf" during parsing
+2020-10-04 23:52:34,440 INFO Included extra file "/etc/supervisor/conf.d/gitaly.conf" during parsing
+2020-10-04 23:52:34,440 INFO Included extra file "/etc/supervisor/conf.d/gitlab-workhorse.conf" during parsing
+2020-10-04 23:52:34,440 INFO Included extra file "/etc/supervisor/conf.d/groups.conf" during parsing
+2020-10-04 23:52:34,440 INFO Included extra file "/etc/supervisor/conf.d/mail_room.conf" during parsing
+2020-10-04 23:52:34,440 INFO Included extra file "/etc/supervisor/conf.d/nginx.conf" during parsing
+2020-10-04 23:52:34,440 INFO Included extra file "/etc/supervisor/conf.d/puma.conf" during parsing
+2020-10-04 23:52:34,440 INFO Included extra file "/etc/supervisor/conf.d/sidekiq.conf" during parsing
+2020-10-04 23:52:34,440 INFO Included extra file "/etc/supervisor/conf.d/sshd.conf" during parsing
+2020-10-04 23:52:34,462 INFO RPC interface 'supervisor' initialized
+2020-10-04 23:52:34,462 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-10-04 23:52:34,462 INFO supervisord started with pid 1
+2020-10-04 23:52:35,464 INFO spawned: 'gitaly' with pid 628
+2020-10-04 23:52:35,494 INFO spawned: 'puma' with pid 629
+2020-10-04 23:52:35,496 INFO spawned: 'gitlab-workhorse' with pid 630
+2020-10-04 23:52:35,498 INFO spawned: 'sidekiq' with pid 631
+2020-10-04 23:52:35,500 INFO spawned: 'nginx' with pid 632
+2020-10-04 23:52:35,501 INFO spawned: 'sshd' with pid 633
+2020-10-04 23:52:35,502 INFO spawned: 'cron' with pid 634
+2020-10-04 23:52:36,527 INFO success: gitaly entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:52:36,528 INFO success: puma entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:52:36,528 INFO success: gitlab-workhorse entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:52:36,528 INFO success: sidekiq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:52:36,528 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:52:36,528 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:52:36,528 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:54:01,665 WARN received SIGTERM indicating exit request
+2020-10-04 23:54:01,731 INFO waiting for gitaly, puma, gitlab-workhorse, sidekiq, nginx, sshd, cron to die
+2020-10-04 23:54:01,770 INFO stopped: cron (terminated by SIGTERM)
+2020-10-04 23:54:01,771 INFO stopped: nginx (exit status 0)
+2020-10-04 23:54:01,772 INFO stopped: sshd (exit status 0)
+2020-10-04 23:54:01,848 INFO stopped: sidekiq (terminated by SIGTERM)
+2020-10-04 23:54:01,850 INFO stopped: gitlab-workhorse (terminated by SIGTERM)
+2020-10-04 23:54:02,172 INFO stopped: puma (terminated by SIGQUIT (core dumped))
+2020-10-04 23:54:02,219 INFO stopped: gitaly (exit status 0)
+2020-10-04 23:55:13,916 CRIT Supervisor running as root (no user in config file)
+2020-10-04 23:55:13,916 INFO Included extra file "/etc/supervisor/conf.d/cron.conf" during parsing
+2020-10-04 23:55:13,916 INFO Included extra file "/etc/supervisor/conf.d/gitaly.conf" during parsing
+2020-10-04 23:55:13,916 INFO Included extra file "/etc/supervisor/conf.d/gitlab-workhorse.conf" during parsing
+2020-10-04 23:55:13,916 INFO Included extra file "/etc/supervisor/conf.d/groups.conf" during parsing
+2020-10-04 23:55:13,916 INFO Included extra file "/etc/supervisor/conf.d/mail_room.conf" during parsing
+2020-10-04 23:55:13,916 INFO Included extra file "/etc/supervisor/conf.d/nginx.conf" during parsing
+2020-10-04 23:55:13,916 INFO Included extra file "/etc/supervisor/conf.d/puma.conf" during parsing
+2020-10-04 23:55:13,916 INFO Included extra file "/etc/supervisor/conf.d/sidekiq.conf" during parsing
+2020-10-04 23:55:13,916 INFO Included extra file "/etc/supervisor/conf.d/sshd.conf" during parsing
+2020-10-04 23:55:14,084 INFO RPC interface 'supervisor' initialized
+2020-10-04 23:55:14,084 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-10-04 23:55:14,085 INFO supervisord started with pid 610
+2020-10-04 23:55:14,719 INFO spawned: 'gitaly' with pid 624
+2020-10-04 23:55:14,721 INFO spawned: 'puma' with pid 625
+2020-10-04 23:55:14,723 INFO spawned: 'gitlab-workhorse' with pid 626
+2020-10-04 23:55:14,725 INFO spawned: 'sidekiq' with pid 627
+2020-10-04 23:55:14,727 INFO spawned: 'nginx' with pid 628
+2020-10-04 23:55:14,728 INFO spawned: 'sshd' with pid 629
+2020-10-04 23:55:14,730 INFO spawned: 'cron' with pid 630
+2020-10-04 23:55:14,731 WARN received SIGTERM indicating exit request
+2020-10-04 23:55:14,731 INFO waiting for gitaly, puma, gitlab-workhorse, sidekiq, nginx, sshd, cron to die
+2020-10-04 23:55:15,790 INFO success: gitaly entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:15,790 INFO success: puma entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:15,790 INFO success: gitlab-workhorse entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:15,790 INFO success: sidekiq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:18,407 INFO waiting for gitaly, puma, gitlab-workhorse, sidekiq, nginx, sshd, cron to die
+2020-10-04 23:55:21,668 INFO waiting for gitaly, puma, gitlab-workhorse, sidekiq, nginx, sshd, cron to die
+2020-10-04 23:55:24,705 INFO waiting for gitaly, puma, gitlab-workhorse, sidekiq, nginx, sshd, cron to die
+2020-10-04 23:55:25,707 WARN killing 'nginx' (628) with SIGKILL
+2020-10-04 23:55:25,708 WARN killing 'sshd' (629) with SIGKILL
+2020-10-04 23:55:25,708 WARN killing 'cron' (630) with SIGKILL
+2020-10-04 23:55:25,708 INFO stopped: sshd (terminated by SIGKILL)
+2020-10-04 23:55:25,709 INFO stopped: nginx (terminated by SIGKILL)
+2020-10-04 23:55:25,709 INFO stopped: cron (terminated by SIGKILL)
+2020-10-04 23:55:25,746 INFO stopped: sidekiq (terminated by SIGTERM)
+2020-10-04 23:55:25,749 INFO stopped: gitlab-workhorse (terminated by SIGTERM)
+2020-10-04 23:55:26,024 INFO stopped: puma (terminated by SIGQUIT (core dumped))
+2020-10-04 23:55:26,055 INFO stopped: gitaly (exit status 0)
+2020-10-04 23:55:26,256 CRIT Supervisor running as root (no user in config file)
+2020-10-04 23:55:26,257 INFO Included extra file "/etc/supervisor/conf.d/cron.conf" during parsing
+2020-10-04 23:55:26,257 INFO Included extra file "/etc/supervisor/conf.d/gitaly.conf" during parsing
+2020-10-04 23:55:26,258 INFO Included extra file "/etc/supervisor/conf.d/gitlab-workhorse.conf" during parsing
+2020-10-04 23:55:26,259 INFO Included extra file "/etc/supervisor/conf.d/groups.conf" during parsing
+2020-10-04 23:55:26,259 INFO Included extra file "/etc/supervisor/conf.d/mail_room.conf" during parsing
+2020-10-04 23:55:26,261 INFO Included extra file "/etc/supervisor/conf.d/nginx.conf" during parsing
+2020-10-04 23:55:26,262 INFO Included extra file "/etc/supervisor/conf.d/puma.conf" during parsing
+2020-10-04 23:55:26,262 INFO Included extra file "/etc/supervisor/conf.d/sidekiq.conf" during parsing
+2020-10-04 23:55:26,263 INFO Included extra file "/etc/supervisor/conf.d/sshd.conf" during parsing
+2020-10-04 23:55:26,271 INFO RPC interface 'supervisor' initialized
+2020-10-04 23:55:26,271 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-10-04 23:55:26,272 INFO supervisord started with pid 1
+2020-10-04 23:55:27,274 INFO spawned: 'gitaly' with pid 664
+2020-10-04 23:55:27,282 INFO spawned: 'puma' with pid 665
+2020-10-04 23:55:27,284 INFO spawned: 'gitlab-workhorse' with pid 671
+2020-10-04 23:55:27,286 INFO spawned: 'sidekiq' with pid 672
+2020-10-04 23:55:27,288 INFO spawned: 'nginx' with pid 673
+2020-10-04 23:55:27,289 INFO spawned: 'sshd' with pid 674
+2020-10-04 23:55:27,291 INFO spawned: 'cron' with pid 675
+2020-10-04 23:55:28,321 INFO success: gitaly entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:28,321 INFO success: puma entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:28,322 INFO success: gitlab-workhorse entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:28,322 INFO success: sidekiq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:28,322 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:28,322 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:28,322 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:29,946 INFO exited: nginx (exit status 1; not expected)
+2020-10-04 23:55:30,955 INFO spawned: 'nginx' with pid 698
+2020-10-04 23:55:32,055 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:33,549 INFO exited: nginx (exit status 1; not expected)
+2020-10-04 23:55:34,623 INFO spawned: 'nginx' with pid 775
+2020-10-04 23:55:35,638 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:37,168 INFO exited: nginx (exit status 1; not expected)
+2020-10-04 23:55:38,171 INFO spawned: 'nginx' with pid 776
+2020-10-04 23:55:39,186 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:40,696 INFO exited: nginx (exit status 1; not expected)
+2020-10-04 23:55:41,698 INFO spawned: 'nginx' with pid 777
+2020-10-04 23:55:42,751 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:44,272 INFO exited: nginx (exit status 1; not expected)
+2020-10-04 23:55:45,275 INFO spawned: 'nginx' with pid 780
+2020-10-04 23:55:46,316 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:47,881 INFO exited: nginx (exit status 1; not expected)
+2020-10-04 23:55:48,901 INFO spawned: 'nginx' with pid 781
+2020-10-04 23:55:49,937 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:51,485 INFO exited: nginx (exit status 1; not expected)
+2020-10-04 23:55:52,498 INFO spawned: 'nginx' with pid 782
+2020-10-04 23:55:53,568 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:55:55,099 INFO exited: nginx (exit status 1; not expected)
+2020-10-04 23:55:56,102 INFO spawned: 'nginx' with pid 788
+2020-10-04 23:55:56,421 WARN received SIGTERM indicating exit request
+2020-10-04 23:55:56,421 INFO waiting for gitaly, puma, gitlab-workhorse, sidekiq, nginx, sshd, cron to die
+2020-10-04 23:55:56,424 INFO stopped: sshd (exit status 0)
+2020-10-04 23:55:56,424 INFO stopped: cron (terminated by SIGTERM)
+2020-10-04 23:55:56,424 INFO stopped: nginx (terminated by SIGTERM)
+2020-10-04 23:55:56,474 INFO stopped: sidekiq (terminated by SIGTERM)
+2020-10-04 23:55:56,478 INFO stopped: gitlab-workhorse (terminated by SIGTERM)
+2020-10-04 23:55:56,665 INFO stopped: puma (terminated by SIGQUIT (core dumped))
+2020-10-04 23:55:56,678 INFO stopped: gitaly (exit status 0)
+2020-10-04 23:57:16,062 CRIT Supervisor running as root (no user in config file)
+2020-10-04 23:57:16,063 INFO Included extra file "/etc/supervisor/conf.d/cron.conf" during parsing
+2020-10-04 23:57:16,063 INFO Included extra file "/etc/supervisor/conf.d/gitaly.conf" during parsing
+2020-10-04 23:57:16,063 INFO Included extra file "/etc/supervisor/conf.d/gitlab-workhorse.conf" during parsing
+2020-10-04 23:57:16,063 INFO Included extra file "/etc/supervisor/conf.d/groups.conf" during parsing
+2020-10-04 23:57:16,063 INFO Included extra file "/etc/supervisor/conf.d/mail_room.conf" during parsing
+2020-10-04 23:57:16,063 INFO Included extra file "/etc/supervisor/conf.d/nginx.conf" during parsing
+2020-10-04 23:57:16,063 INFO Included extra file "/etc/supervisor/conf.d/puma.conf" during parsing
+2020-10-04 23:57:16,063 INFO Included extra file "/etc/supervisor/conf.d/sidekiq.conf" during parsing
+2020-10-04 23:57:16,063 INFO Included extra file "/etc/supervisor/conf.d/sshd.conf" during parsing
+2020-10-04 23:57:16,093 INFO RPC interface 'supervisor' initialized
+2020-10-04 23:57:16,094 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-10-04 23:57:16,094 INFO supervisord started with pid 1
+2020-10-04 23:57:17,124 INFO spawned: 'gitaly' with pid 614
+2020-10-04 23:57:17,126 INFO spawned: 'puma' with pid 615
+2020-10-04 23:57:17,128 INFO spawned: 'gitlab-workhorse' with pid 616
+2020-10-04 23:57:17,130 INFO spawned: 'sidekiq' with pid 617
+2020-10-04 23:57:17,131 INFO spawned: 'nginx' with pid 625
+2020-10-04 23:57:17,133 INFO spawned: 'sshd' with pid 628
+2020-10-04 23:57:17,134 INFO spawned: 'cron' with pid 629
+2020-10-04 23:57:18,135 INFO success: gitaly entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:57:18,135 INFO success: puma entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:57:18,135 INFO success: gitlab-workhorse entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:57:18,135 INFO success: sidekiq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:57:18,135 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:57:18,135 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:57:18,135 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:57:20,222 WARN received SIGTERM indicating exit request
+2020-10-04 23:57:20,223 INFO waiting for gitaly, puma, gitlab-workhorse, sidekiq, nginx, sshd, cron to die
+2020-10-04 23:57:20,224 INFO stopped: sshd (exit status 0)
+2020-10-04 23:57:20,224 INFO stopped: cron (terminated by SIGTERM)
+2020-10-04 23:57:20,228 INFO stopped: nginx (exit status 0)
+2020-10-04 23:57:20,236 INFO stopped: sidekiq (terminated by SIGTERM)
+2020-10-04 23:57:20,264 INFO stopped: gitlab-workhorse (terminated by SIGTERM)
+2020-10-04 23:57:20,517 INFO stopped: puma (terminated by SIGQUIT (core dumped))
+2020-10-04 23:57:20,550 INFO stopped: gitaly (exit status 0)
+2020-10-04 23:59:35,335 CRIT Supervisor running as root (no user in config file)
+2020-10-04 23:59:35,335 INFO Included extra file "/etc/supervisor/conf.d/cron.conf" during parsing
+2020-10-04 23:59:35,335 INFO Included extra file "/etc/supervisor/conf.d/gitaly.conf" during parsing
+2020-10-04 23:59:35,335 INFO Included extra file "/etc/supervisor/conf.d/gitlab-workhorse.conf" during parsing
+2020-10-04 23:59:35,335 INFO Included extra file "/etc/supervisor/conf.d/groups.conf" during parsing
+2020-10-04 23:59:35,335 INFO Included extra file "/etc/supervisor/conf.d/mail_room.conf" during parsing
+2020-10-04 23:59:35,335 INFO Included extra file "/etc/supervisor/conf.d/nginx.conf" during parsing
+2020-10-04 23:59:35,335 INFO Included extra file "/etc/supervisor/conf.d/puma.conf" during parsing
+2020-10-04 23:59:35,335 INFO Included extra file "/etc/supervisor/conf.d/sidekiq.conf" during parsing
+2020-10-04 23:59:35,335 INFO Included extra file "/etc/supervisor/conf.d/sshd.conf" during parsing
+2020-10-04 23:59:35,343 INFO RPC interface 'supervisor' initialized
+2020-10-04 23:59:35,343 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-10-04 23:59:35,343 INFO supervisord started with pid 1
+2020-10-04 23:59:36,368 INFO spawned: 'gitaly' with pid 614
+2020-10-04 23:59:36,370 INFO spawned: 'puma' with pid 615
+2020-10-04 23:59:36,372 INFO spawned: 'gitlab-workhorse' with pid 616
+2020-10-04 23:59:36,373 INFO spawned: 'sidekiq' with pid 617
+2020-10-04 23:59:36,375 INFO spawned: 'nginx' with pid 623
+2020-10-04 23:59:36,376 INFO spawned: 'sshd' with pid 625
+2020-10-04 23:59:36,378 INFO spawned: 'cron' with pid 626
+2020-10-04 23:59:37,507 INFO success: gitaly entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:59:37,508 INFO success: puma entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:59:37,509 INFO success: gitlab-workhorse entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:59:37,510 INFO success: sidekiq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:59:37,510 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:59:37,511 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:59:37,512 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-04 23:59:37,776 WARN received SIGTERM indicating exit request
+2020-10-04 23:59:37,777 INFO waiting for gitaly, puma, gitlab-workhorse, sidekiq, nginx, sshd, cron to die
+2020-10-04 23:59:37,778 INFO stopped: sshd (exit status 0)
+2020-10-04 23:59:37,778 INFO stopped: cron (terminated by SIGTERM)
+2020-10-04 23:59:37,813 INFO stopped: nginx (exit status 0)
+2020-10-04 23:59:37,819 INFO stopped: sidekiq (terminated by SIGTERM)
+2020-10-04 23:59:37,821 INFO stopped: gitlab-workhorse (terminated by SIGTERM)
+2020-10-04 23:59:38,062 INFO stopped: puma (terminated by SIGQUIT (core dumped))
+2020-10-04 23:59:38,066 INFO stopped: gitaly (exit status 0)
+2020-10-05 00:03:48,741 CRIT Supervisor running as root (no user in config file)
+2020-10-05 00:03:48,757 INFO Included extra file "/etc/supervisor/conf.d/cron.conf" during parsing
+2020-10-05 00:03:48,757 INFO Included extra file "/etc/supervisor/conf.d/gitaly.conf" during parsing
+2020-10-05 00:03:48,757 INFO Included extra file "/etc/supervisor/conf.d/gitlab-workhorse.conf" during parsing
+2020-10-05 00:03:48,757 INFO Included extra file "/etc/supervisor/conf.d/groups.conf" during parsing
+2020-10-05 00:03:48,757 INFO Included extra file "/etc/supervisor/conf.d/mail_room.conf" during parsing
+2020-10-05 00:03:48,757 INFO Included extra file "/etc/supervisor/conf.d/nginx.conf" during parsing
+2020-10-05 00:03:48,757 INFO Included extra file "/etc/supervisor/conf.d/puma.conf" during parsing
+2020-10-05 00:03:48,757 INFO Included extra file "/etc/supervisor/conf.d/sidekiq.conf" during parsing
+2020-10-05 00:03:48,758 INFO Included extra file "/etc/supervisor/conf.d/sshd.conf" during parsing
+2020-10-05 00:03:48,826 INFO RPC interface 'supervisor' initialized
+2020-10-05 00:03:48,826 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-10-05 00:03:48,826 INFO supervisord started with pid 615
+2020-10-05 00:03:49,324 INFO spawned: 'gitaly' with pid 629
+2020-10-05 00:03:49,326 INFO spawned: 'puma' with pid 630
+2020-10-05 00:03:49,328 INFO spawned: 'gitlab-workhorse' with pid 631
+2020-10-05 00:03:49,329 INFO spawned: 'sidekiq' with pid 632
+2020-10-05 00:03:49,353 INFO spawned: 'nginx' with pid 633
+2020-10-05 00:03:49,358 INFO spawned: 'sshd' with pid 634
+2020-10-05 00:03:49,366 INFO spawned: 'cron' with pid 635
+2020-10-05 00:03:49,368 WARN received SIGTERM indicating exit request
+2020-10-05 00:03:49,369 INFO waiting for gitaly, puma, gitlab-workhorse, sidekiq, nginx, sshd, cron to die
+2020-10-05 00:03:49,370 INFO stopped: nginx (terminated by SIGTERM)
+2020-10-05 00:03:49,370 INFO stopped: sshd (terminated by SIGTERM)
+2020-10-05 00:03:50,416 INFO success: gitaly entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-05 00:03:50,417 INFO success: puma entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-05 00:03:50,418 INFO success: gitlab-workhorse entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-05 00:03:50,419 INFO success: sidekiq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-05 00:03:52,512 INFO waiting for gitaly, puma, gitlab-workhorse, sidekiq, cron to die
+2020-10-05 00:03:55,528 INFO waiting for gitaly, puma, gitlab-workhorse, sidekiq, cron to die
+2020-10-05 00:03:58,552 INFO waiting for gitaly, puma, gitlab-workhorse, sidekiq, cron to die
+2020-10-05 00:03:59,562 WARN killing 'cron' (635) with SIGKILL
+2020-10-05 00:03:59,562 INFO stopped: cron (terminated by SIGKILL)
+2020-10-05 00:03:59,570 INFO stopped: sidekiq (terminated by SIGTERM)
+2020-10-05 00:03:59,571 INFO stopped: gitlab-workhorse (terminated by SIGTERM)
+2020-10-05 00:03:59,801 INFO stopped: puma (terminated by SIGQUIT (core dumped))
+2020-10-05 00:03:59,811 INFO stopped: gitaly (exit status 0)
+2020-10-05 00:04:00,030 CRIT Supervisor running as root (no user in config file)
+2020-10-05 00:04:00,030 INFO Included extra file "/etc/supervisor/conf.d/cron.conf" during parsing
+2020-10-05 00:04:00,030 INFO Included extra file "/etc/supervisor/conf.d/gitaly.conf" during parsing
+2020-10-05 00:04:00,030 INFO Included extra file "/etc/supervisor/conf.d/gitlab-workhorse.conf" during parsing
+2020-10-05 00:04:00,030 INFO Included extra file "/etc/supervisor/conf.d/groups.conf" during parsing
+2020-10-05 00:04:00,030 INFO Included extra file "/etc/supervisor/conf.d/mail_room.conf" during parsing
+2020-10-05 00:04:00,030 INFO Included extra file "/etc/supervisor/conf.d/nginx.conf" during parsing
+2020-10-05 00:04:00,030 INFO Included extra file "/etc/supervisor/conf.d/puma.conf" during parsing
+2020-10-05 00:04:00,030 INFO Included extra file "/etc/supervisor/conf.d/sidekiq.conf" during parsing
+2020-10-05 00:04:00,030 INFO Included extra file "/etc/supervisor/conf.d/sshd.conf" during parsing
+2020-10-05 00:04:00,039 INFO RPC interface 'supervisor' initialized
+2020-10-05 00:04:00,039 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-10-05 00:04:00,039 INFO supervisord started with pid 1
+2020-10-05 00:04:01,049 INFO spawned: 'gitaly' with pid 742
+2020-10-05 00:04:01,052 INFO spawned: 'puma' with pid 743
+2020-10-05 00:04:01,054 INFO spawned: 'gitlab-workhorse' with pid 744
+2020-10-05 00:04:01,057 INFO spawned: 'sidekiq' with pid 749
+2020-10-05 00:04:01,059 INFO spawned: 'nginx' with pid 751
+2020-10-05 00:04:01,062 INFO spawned: 'sshd' with pid 752
+2020-10-05 00:04:01,064 INFO spawned: 'cron' with pid 754
+2020-10-05 00:04:02,048 INFO success: gitaly entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-05 00:04:02,072 INFO success: puma entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-05 00:04:02,073 INFO success: gitlab-workhorse entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-05 00:04:02,074 INFO success: sidekiq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-05 00:04:02,074 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-05 00:04:02,075 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-05 00:04:02,077 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-05 00:04:56,254 WARN received SIGTERM indicating exit request
+2020-10-05 00:04:56,303 INFO waiting for gitaly, puma, gitlab-workhorse, sidekiq, nginx, sshd, cron to die
+2020-10-05 00:04:56,304 INFO stopped: cron (terminated by SIGTERM)
+2020-10-05 00:04:56,345 INFO stopped: sshd (exit status 0)
+2020-10-05 00:04:56,616 INFO stopped: nginx (exit status 0)
+2020-10-05 00:04:56,718 INFO stopped: sidekiq (terminated by SIGTERM)
+2020-10-05 00:04:56,720 INFO stopped: gitlab-workhorse (terminated by SIGTERM)
+2020-10-05 00:04:57,349 INFO stopped: puma (terminated by SIGQUIT (core dumped))
+2020-10-05 00:04:57,671 INFO stopped: gitaly (exit status 0)

@@ -77,3 +77,13 @@
 {"severity":"DEBUG","time":"2020-10-03T22:31:16.110Z","correlation_id":null,"message":"ActiveRecord connection established"}
 {"severity":"DEBUG","time":"2020-10-03T22:31:16.125Z","correlation_id":null,"message":"ActiveRecord connection established"}
 {"severity":"DEBUG","time":"2020-10-03T22:31:16.142Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2020-10-04T18:07:35.357Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-04T18:07:35.357Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2020-10-04T18:08:29.580Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2020-10-04T18:08:29.589Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2020-10-04T18:08:29.597Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2020-10-04T18:08:29.632Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2020-10-04T18:23:41.631Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-04T18:23:41.631Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-04T18:34:29.655Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2020-10-04T18:34:29.653Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}

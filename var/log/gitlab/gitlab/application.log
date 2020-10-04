@@ -82,3 +82,13 @@ LINE 1: SELECT "application_settings".* FROM "application_settings" ...
 2020-10-03T22:31:16.106Z: ActiveRecord connection established
 2020-10-03T22:31:16.122Z: ActiveRecord connection established
 2020-10-03T22:31:16.141Z: ActiveRecord connection established
+2020-10-04T18:07:35.357Z: Checking state of dynamic postgres partitions
+2020-10-04T18:07:35.357Z: Checking state of dynamic postgres partitions
+2020-10-04T18:08:29.580Z: ActiveRecord connection disconnected
+2020-10-04T18:08:29.588Z: ActiveRecord connection established
+2020-10-04T18:08:29.597Z: ActiveRecord connection established
+2020-10-04T18:08:29.605Z: ActiveRecord connection established
+2020-10-04T18:23:41.606Z: Checking state of dynamic postgres partitions
+2020-10-04T18:23:41.606Z: Checking state of dynamic postgres partitions
+2020-10-04T18:34:29.637Z: Checking state of dynamic postgres partitions
+2020-10-04T18:34:29.637Z: Checking state of dynamic postgres partitions

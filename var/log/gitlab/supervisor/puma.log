@@ -670,3 +670,67 @@ Missing Rails.application.secrets.openid_connect_signing_key for production envi
 {"timestamp":"2020-10-03T22:35:23.355Z","pid":634,"message":"* Process workers: 3"}
 {"timestamp":"2020-10-03T22:35:23.355Z","pid":634,"message":"* Preloading application"}
 {"timestamp":"2020-10-03T22:35:50.678Z","pid":634,"message":"! Unable to load application: SignalException: SIGQUIT"}
+{"timestamp":"2020-10-04T18:06:14.460Z","pid":627,"message":"Puma starting in cluster mode..."}
+{"timestamp":"2020-10-04T18:06:14.460Z","pid":627,"message":"* Version 4.3.5.gitlab.3 (ruby 2.6.6-p146), codename: Mysterious Traveller"}
+{"timestamp":"2020-10-04T18:06:14.460Z","pid":627,"message":"* Min threads: 1, max threads: 16"}
+{"timestamp":"2020-10-04T18:06:14.460Z","pid":627,"message":"* Environment: production"}
+{"timestamp":"2020-10-04T18:06:14.460Z","pid":627,"message":"* Process workers: 3"}
+{"timestamp":"2020-10-04T18:06:14.460Z","pid":627,"message":"* Preloading application"}
+{"timestamp":"2020-10-04T18:08:29.229Z","pid":627,"message":"* Listening on unix:///home/git/gitlab/tmp/sockets/gitlab.socket"}
+{"timestamp":"2020-10-04T18:08:29.229Z","pid":627,"message":"* Listening on tcp://127.0.0.1:8080"}
+{"timestamp":"2020-10-04T18:08:29.229Z","pid":627,"message":"! WARNING: Detected 3 Thread(s) started in app boot:"}
+{"timestamp":"2020-10-04T18:08:29.229Z","pid":627,"message":"! #\u003cThread:0x00005568a4f54fa8@/home/git/gitlab/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/atomic/ruby_thread_local_var.rb:38 sleep_forever\u003e - /home/git/gitlab/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/atomic/ruby_thread_local_var.rb:40:in `pop'"}
+{"timestamp":"2020-10-04T18:08:29.229Z","pid":627,"message":"! #\u003cThread:0x00005568adc2cf98@/home/git/gitlab/vendor/bundle/ruby/2.6.0/gems/activerecord-6.0.3.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:334 sleep\u003e - /home/git/gitlab/vendor/bundle/ruby/2.6.0/gems/activerecord-6.0.3.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:337:in `sleep'"}
+{"timestamp":"2020-10-04T18:08:29.229Z","pid":627,"message":"! #\u003cThread:0x00005568c0782a70@/home/git/gitlab/vendor/bundle/ruby/2.6.0/gems/rack-timeout-0.5.2/lib/rack/timeout/support/scheduler.rb:73 sleep\u003e - /home/git/gitlab/vendor/bundle/ruby/2.6.0/gems/rack-timeout-0.5.2/lib/rack/timeout/support/scheduler.rb:91:in `sleep'"}
+{"timestamp":"2020-10-04T18:08:29.229Z","pid":627,"message":"Use Ctrl-C to stop"}
+{"timestamp":"2020-10-04T18:22:45.930Z","pid":629,"message":"Puma starting in cluster mode..."}
+{"timestamp":"2020-10-04T18:22:45.930Z","pid":629,"message":"* Version 4.3.5.gitlab.3 (ruby 2.6.6-p146), codename: Mysterious Traveller"}
+{"timestamp":"2020-10-04T18:22:45.930Z","pid":629,"message":"* Min threads: 1, max threads: 16"}
+{"timestamp":"2020-10-04T18:22:45.930Z","pid":629,"message":"* Environment: production"}
+{"timestamp":"2020-10-04T18:22:45.930Z","pid":629,"message":"* Process workers: 3"}
+{"timestamp":"2020-10-04T18:22:45.930Z","pid":629,"message":"* Preloading application"}
+Missing Rails.application.secrets.openid_connect_signing_key for production environment. The secret will be generated and stored in config/secrets.yml.
+{"timestamp":"2020-10-04T18:24:01.852Z","pid":629,"message":"! Unable to load application: SignalException: SIGQUIT"}
+{"timestamp":"2020-10-04T18:25:18.636Z","pid":625,"message":"Puma starting in cluster mode..."}
+{"timestamp":"2020-10-04T18:25:18.636Z","pid":625,"message":"* Version 4.3.5.gitlab.3 (ruby 2.6.6-p146), codename: Mysterious Traveller"}
+{"timestamp":"2020-10-04T18:25:18.636Z","pid":625,"message":"* Min threads: 1, max threads: 16"}
+{"timestamp":"2020-10-04T18:25:18.636Z","pid":625,"message":"* Environment: production"}
+{"timestamp":"2020-10-04T18:25:18.636Z","pid":625,"message":"* Process workers: 3"}
+{"timestamp":"2020-10-04T18:25:18.636Z","pid":625,"message":"* Preloading application"}
+{"timestamp":"2020-10-04T18:25:25.752Z","pid":625,"message":"! Unable to load application: SignalException: SIGQUIT"}
+{"timestamp":"2020-10-04T18:25:29.047Z","pid":665,"message":"Puma starting in cluster mode..."}
+{"timestamp":"2020-10-04T18:25:29.048Z","pid":665,"message":"* Version 4.3.5.gitlab.3 (ruby 2.6.6-p146), codename: Mysterious Traveller"}
+{"timestamp":"2020-10-04T18:25:29.048Z","pid":665,"message":"* Min threads: 1, max threads: 16"}
+{"timestamp":"2020-10-04T18:25:29.048Z","pid":665,"message":"* Environment: production"}
+{"timestamp":"2020-10-04T18:25:29.048Z","pid":665,"message":"* Process workers: 3"}
+{"timestamp":"2020-10-04T18:25:29.049Z","pid":665,"message":"* Preloading application"}
+{"timestamp":"2020-10-04T18:25:56.475Z","pid":665,"message":"! Unable to load application: SignalException: SIGQUIT"}
+{"timestamp":"2020-10-04T18:27:18.526Z","pid":615,"message":"Puma starting in cluster mode..."}
+{"timestamp":"2020-10-04T18:27:18.526Z","pid":615,"message":"* Version 4.3.5.gitlab.3 (ruby 2.6.6-p146), codename: Mysterious Traveller"}
+{"timestamp":"2020-10-04T18:27:18.526Z","pid":615,"message":"* Min threads: 1, max threads: 16"}
+{"timestamp":"2020-10-04T18:27:18.526Z","pid":615,"message":"* Environment: production"}
+{"timestamp":"2020-10-04T18:27:18.526Z","pid":615,"message":"* Process workers: 3"}
+{"timestamp":"2020-10-04T18:27:18.526Z","pid":615,"message":"* Preloading application"}
+{"timestamp":"2020-10-04T18:27:20.240Z","pid":615,"message":"! Unable to load application: SignalException: SIGQUIT"}
+{"timestamp":"2020-10-04T18:29:37.807Z","pid":615,"message":"Puma starting in cluster mode..."}
+{"timestamp":"2020-10-04T18:29:37.807Z","pid":615,"message":"* Version 4.3.5.gitlab.3 (ruby 2.6.6-p146), codename: Mysterious Traveller"}
+{"timestamp":"2020-10-04T18:29:37.807Z","pid":615,"message":"* Min threads: 1, max threads: 16"}
+{"timestamp":"2020-10-04T18:29:37.807Z","pid":615,"message":"* Environment: production"}
+{"timestamp":"2020-10-04T18:29:37.807Z","pid":615,"message":"* Process workers: 3"}
+{"timestamp":"2020-10-04T18:29:37.807Z","pid":615,"message":"* Preloading application"}
+{"timestamp":"2020-10-04T18:29:37.820Z","pid":615,"message":"! Unable to load application: SignalException: SIGQUIT"}
+{"timestamp":"2020-10-04T18:33:51.334Z","pid":630,"message":"Puma starting in cluster mode..."}
+{"timestamp":"2020-10-04T18:33:51.334Z","pid":630,"message":"* Version 4.3.5.gitlab.3 (ruby 2.6.6-p146), codename: Mysterious Traveller"}
+{"timestamp":"2020-10-04T18:33:51.334Z","pid":630,"message":"* Min threads: 1, max threads: 16"}
+{"timestamp":"2020-10-04T18:33:51.334Z","pid":630,"message":"* Environment: production"}
+{"timestamp":"2020-10-04T18:33:51.334Z","pid":630,"message":"* Process workers: 3"}
+{"timestamp":"2020-10-04T18:33:51.334Z","pid":630,"message":"* Preloading application"}
+{"timestamp":"2020-10-04T18:33:59.572Z","pid":630,"message":"! Unable to load application: SignalException: SIGQUIT"}
+{"timestamp":"2020-10-04T18:34:02.552Z","pid":743,"message":"Puma starting in cluster mode..."}
+{"timestamp":"2020-10-04T18:34:02.552Z","pid":743,"message":"* Version 4.3.5.gitlab.3 (ruby 2.6.6-p146), codename: Mysterious Traveller"}
+{"timestamp":"2020-10-04T18:34:02.552Z","pid":743,"message":"* Min threads: 1, max threads: 16"}
+{"timestamp":"2020-10-04T18:34:02.552Z","pid":743,"message":"* Environment: production"}
+{"timestamp":"2020-10-04T18:34:02.552Z","pid":743,"message":"* Process workers: 3"}
+{"timestamp":"2020-10-04T18:34:02.552Z","pid":743,"message":"* Preloading application"}
+Missing Rails.application.secrets.openid_connect_signing_key for production environment. The secret will be generated and stored in config/secrets.yml.
+{"timestamp":"2020-10-04T18:34:56.730Z","pid":743,"message":"! Unable to load application: SignalException: SIGQUIT"}

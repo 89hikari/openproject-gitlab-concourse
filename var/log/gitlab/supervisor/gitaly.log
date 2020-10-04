@@ -270,3 +270,161 @@ time="2020-10-04T04:05:21+05:30" level=info msg="PID 662 BUNDLE_GEMFILE=/home/gi
 time="2020-10-04T04:05:50+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 633 /tmp/gitaly-internal542464789/ruby.0]" supervisor.name=gitaly-ruby.0
 time="2020-10-04T04:05:50+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 633 /tmp/gitaly-internal542464789/ruby.1]" supervisor.name=gitaly-ruby.1
 time="2020-10-04T04:05:50+05:30" level=error msg="shutting down" error="received signal \"terminated\""
+time="2020-10-04T23:35:37+05:30" level=info msg="Starting Gitaly" version="Gitaly, version 13.4.2"
+time="2020-10-04T23:35:37+05:30" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/usr/bin/git
+time="2020-10-04T23:35:38+05:30" level=info msg="clearing disk cache object folder" path=/home/git/data/repositories
+time="2020-10-04T23:35:38+05:30" level=info msg="moving disk cache object folder to /home/git/data/repositories/+gitaly/tmp/diskcache705290988" path=/home/git/data/repositories
+time="2020-10-04T23:35:38+05:30" level=info msg="disk cache object folder doesn't exist, no need to remove" path=/home/git/data/repositories
+time="2020-10-04T23:35:38+05:30" level=info msg="Starting file walker for /home/git/data/repositories/+gitaly/cache" path=/home/git/data/repositories/+gitaly/cache
+time="2020-10-04T23:35:38+05:30" level=info msg="Starting file walker for /home/git/data/repositories/+gitaly/state" path=/home/git/data/repositories/+gitaly/state
+time="2020-10-04T23:35:38+05:30" level=info msg="cleared all cache object files in /home/git/data/repositories/+gitaly/tmp/diskcache705290988 after 41.585µs" path=/home/git/data/repositories
+time="2020-10-04T23:35:42+05:30" level=info msg="finished tempdir cleaner walk" storage=default time_ms=0
+time="2020-10-04T23:35:42+05:30" level=info msg="listening at unix address" address=/home/git/gitlab/tmp/sockets/private/gitaly.socket
+time="2020-10-04T23:35:42+05:30" level=info msg="listening at unix address" address=/tmp/gitaly-internal931755774/internal.sock
+time="2020-10-04T23:35:42+05:30" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.0 supervisor.rss_threshold=209715200
+time="2020-10-04T23:35:42+05:30" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.1 supervisor.rss_threshold=209715200
+time="2020-10-04T23:35:42+05:30" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 626 /tmp/gitaly-internal931755774/ruby.0]" supervisor.name=gitaly-ruby.0 supervisor.pid=651
+time="2020-10-04T23:35:42+05:30" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 626 /tmp/gitaly-internal931755774/ruby.1]" supervisor.name=gitaly-ruby.1 supervisor.pid=654
+time="2020-10-04T23:35:43+05:30" level=info msg="PID 654 BUNDLE_GEMFILE=/home/git/gitaly/ruby/Gemfile" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 626 /tmp/gitaly-internal931755774/ruby.1]" supervisor.name=gitaly-ruby.1
+time="2020-10-04T23:35:43+05:30" level=info msg="PID 651 BUNDLE_GEMFILE=/home/git/gitaly/ruby/Gemfile" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 626 /tmp/gitaly-internal931755774/ruby.0]" supervisor.name=gitaly-ruby.0
+time="2020-10-04T23:47:58+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 626 /tmp/gitaly-internal931755774/ruby.1]" supervisor.name=gitaly-ruby.1
+time="2020-10-04T23:47:58+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 626 /tmp/gitaly-internal931755774/ruby.0]" supervisor.name=gitaly-ruby.0
+time="2020-10-04T23:47:58+05:30" level=error msg="shutting down" error="received signal \"terminated\""
+time="2020-10-04T23:52:36+05:30" level=info msg="Starting Gitaly" version="Gitaly, version 13.4.2"
+time="2020-10-04T23:52:36+05:30" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/usr/bin/git
+time="2020-10-04T23:52:36+05:30" level=info msg="clearing disk cache object folder" path=/home/git/data/repositories
+time="2020-10-04T23:52:37+05:30" level=info msg="moving disk cache object folder to /home/git/data/repositories/+gitaly/tmp/diskcache800672859" path=/home/git/data/repositories
+time="2020-10-04T23:52:37+05:30" level=info msg="disk cache object folder doesn't exist, no need to remove" path=/home/git/data/repositories
+time="2020-10-04T23:52:37+05:30" level=info msg="Starting file walker for /home/git/data/repositories/+gitaly/cache" path=/home/git/data/repositories/+gitaly/cache
+time="2020-10-04T23:52:37+05:30" level=info msg="Starting file walker for /home/git/data/repositories/+gitaly/state" path=/home/git/data/repositories/+gitaly/state
+time="2020-10-04T23:52:37+05:30" level=info msg="cleared all cache object files in /home/git/data/repositories/+gitaly/tmp/diskcache800672859 after 93.64µs" path=/home/git/data/repositories
+time="2020-10-04T23:52:39+05:30" level=info msg="finished tempdir cleaner walk" storage=default time_ms=0
+time="2020-10-04T23:52:39+05:30" level=info msg="listening at unix address" address=/home/git/gitlab/tmp/sockets/private/gitaly.socket
+time="2020-10-04T23:52:39+05:30" level=info msg="listening at unix address" address=/tmp/gitaly-internal492135749/internal.sock
+time="2020-10-04T23:52:39+05:30" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.1 supervisor.rss_threshold=209715200
+time="2020-10-04T23:52:39+05:30" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 628 /tmp/gitaly-internal492135749/ruby.1]" supervisor.name=gitaly-ruby.1 supervisor.pid=652
+time="2020-10-04T23:52:39+05:30" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 628 /tmp/gitaly-internal492135749/ruby.0]" supervisor.name=gitaly-ruby.0 supervisor.pid=654
+time="2020-10-04T23:52:39+05:30" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.0 supervisor.rss_threshold=209715200
+time="2020-10-04T23:52:39+05:30" level=info msg="PID 652 BUNDLE_GEMFILE=/home/git/gitaly/ruby/Gemfile" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 628 /tmp/gitaly-internal492135749/ruby.1]" supervisor.name=gitaly-ruby.1
+time="2020-10-04T23:52:39+05:30" level=info msg="PID 654 BUNDLE_GEMFILE=/home/git/gitaly/ruby/Gemfile" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 628 /tmp/gitaly-internal492135749/ruby.0]" supervisor.name=gitaly-ruby.0
+time="2020-10-04T23:54:02+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 628 /tmp/gitaly-internal492135749/ruby.0]" supervisor.name=gitaly-ruby.0
+time="2020-10-04T23:54:02+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 628 /tmp/gitaly-internal492135749/ruby.1]" supervisor.name=gitaly-ruby.1
+time="2020-10-04T23:54:02+05:30" level=error msg="shutting down" error="received signal \"terminated\""
+time="2020-10-04T23:55:15+05:30" level=info msg="Starting Gitaly" version="Gitaly, version 13.4.2"
+time="2020-10-04T23:55:15+05:30" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/usr/bin/git
+time="2020-10-04T23:55:15+05:30" level=info msg="clearing disk cache object folder" path=/home/git/data/repositories
+time="2020-10-04T23:55:15+05:30" level=info msg="moving disk cache object folder to /home/git/data/repositories/+gitaly/tmp/diskcache557773174" path=/home/git/data/repositories
+time="2020-10-04T23:55:15+05:30" level=info msg="disk cache object folder doesn't exist, no need to remove" path=/home/git/data/repositories
+time="2020-10-04T23:55:15+05:30" level=info msg="Starting file walker for /home/git/data/repositories/+gitaly/cache" path=/home/git/data/repositories/+gitaly/cache
+time="2020-10-04T23:55:15+05:30" level=info msg="Starting file walker for /home/git/data/repositories/+gitaly/state" path=/home/git/data/repositories/+gitaly/state
+time="2020-10-04T23:55:15+05:30" level=info msg="cleared all cache object files in /home/git/data/repositories/+gitaly/tmp/diskcache557773174 after 57.005µs" path=/home/git/data/repositories
+time="2020-10-04T23:55:16+05:30" level=info msg="finished tempdir cleaner walk" storage=default time_ms=0
+time="2020-10-04T23:55:16+05:30" level=info msg="listening at unix address" address=/home/git/gitlab/tmp/sockets/private/gitaly.socket
+time="2020-10-04T23:55:16+05:30" level=info msg="listening at unix address" address=/tmp/gitaly-internal251242520/internal.sock
+time="2020-10-04T23:55:16+05:30" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.0 supervisor.rss_threshold=209715200
+time="2020-10-04T23:55:16+05:30" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.1 supervisor.rss_threshold=209715200
+time="2020-10-04T23:55:16+05:30" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 624 /tmp/gitaly-internal251242520/ruby.0]" supervisor.name=gitaly-ruby.0 supervisor.pid=649
+time="2020-10-04T23:55:16+05:30" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 624 /tmp/gitaly-internal251242520/ruby.1]" supervisor.name=gitaly-ruby.1 supervisor.pid=651
+time="2020-10-04T23:55:16+05:30" level=info msg="PID 649 BUNDLE_GEMFILE=/home/git/gitaly/ruby/Gemfile" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 624 /tmp/gitaly-internal251242520/ruby.0]" supervisor.name=gitaly-ruby.0
+time="2020-10-04T23:55:16+05:30" level=info msg="PID 651 BUNDLE_GEMFILE=/home/git/gitaly/ruby/Gemfile" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 624 /tmp/gitaly-internal251242520/ruby.1]" supervisor.name=gitaly-ruby.1
+time="2020-10-04T23:55:26+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 624 /tmp/gitaly-internal251242520/ruby.0]" supervisor.name=gitaly-ruby.0
+time="2020-10-04T23:55:26+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 624 /tmp/gitaly-internal251242520/ruby.1]" supervisor.name=gitaly-ruby.1
+time="2020-10-04T23:55:26+05:30" level=error msg="shutting down" error="received signal \"terminated\""
+time="2020-10-04T23:55:27+05:30" level=info msg="Starting Gitaly" version="Gitaly, version 13.4.2"
+time="2020-10-04T23:55:27+05:30" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/usr/bin/git
+time="2020-10-04T23:55:27+05:30" level=info msg="clearing disk cache object folder" path=/home/git/data/repositories
+time="2020-10-04T23:55:27+05:30" level=info msg="moving disk cache object folder to /home/git/data/repositories/+gitaly/tmp/diskcache466942571" path=/home/git/data/repositories
+time="2020-10-04T23:55:27+05:30" level=info msg="disk cache object folder doesn't exist, no need to remove" path=/home/git/data/repositories
+time="2020-10-04T23:55:27+05:30" level=info msg="Starting file walker for /home/git/data/repositories/+gitaly/cache" path=/home/git/data/repositories/+gitaly/cache
+time="2020-10-04T23:55:27+05:30" level=info msg="Starting file walker for /home/git/data/repositories/+gitaly/state" path=/home/git/data/repositories/+gitaly/state
+time="2020-10-04T23:55:27+05:30" level=info msg="cleared all cache object files in /home/git/data/repositories/+gitaly/tmp/diskcache466942571 after 58.43µs" path=/home/git/data/repositories
+time="2020-10-04T23:55:28+05:30" level=info msg="finished tempdir cleaner walk" storage=default time_ms=0
+time="2020-10-04T23:55:28+05:30" level=info msg="listening at unix address" address=/home/git/gitlab/tmp/sockets/private/gitaly.socket
+time="2020-10-04T23:55:28+05:30" level=info msg="listening at unix address" address=/tmp/gitaly-internal505043413/internal.sock
+time="2020-10-04T23:55:28+05:30" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.1 supervisor.rss_threshold=209715200
+time="2020-10-04T23:55:28+05:30" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 664 /tmp/gitaly-internal505043413/ruby.1]" supervisor.name=gitaly-ruby.1 supervisor.pid=688
+time="2020-10-04T23:55:28+05:30" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.0 supervisor.rss_threshold=209715200
+time="2020-10-04T23:55:28+05:30" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 664 /tmp/gitaly-internal505043413/ruby.0]" supervisor.name=gitaly-ruby.0 supervisor.pid=689
+time="2020-10-04T23:55:28+05:30" level=info msg="PID 689 BUNDLE_GEMFILE=/home/git/gitaly/ruby/Gemfile" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 664 /tmp/gitaly-internal505043413/ruby.0]" supervisor.name=gitaly-ruby.0
+time="2020-10-04T23:55:28+05:30" level=info msg="PID 688 BUNDLE_GEMFILE=/home/git/gitaly/ruby/Gemfile" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 664 /tmp/gitaly-internal505043413/ruby.1]" supervisor.name=gitaly-ruby.1
+time="2020-10-04T23:55:56+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 664 /tmp/gitaly-internal505043413/ruby.0]" supervisor.name=gitaly-ruby.0
+time="2020-10-04T23:55:56+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 664 /tmp/gitaly-internal505043413/ruby.1]" supervisor.name=gitaly-ruby.1
+time="2020-10-04T23:55:56+05:30" level=error msg="shutting down" error="received signal \"terminated\""
+time="2020-10-04T23:57:17+05:30" level=info msg="Starting Gitaly" version="Gitaly, version 13.4.2"
+time="2020-10-04T23:57:17+05:30" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/usr/bin/git
+time="2020-10-04T23:57:17+05:30" level=info msg="clearing disk cache object folder" path=/home/git/data/repositories
+time="2020-10-04T23:57:17+05:30" level=info msg="moving disk cache object folder to /home/git/data/repositories/+gitaly/tmp/diskcache061881966" path=/home/git/data/repositories
+time="2020-10-04T23:57:17+05:30" level=info msg="disk cache object folder doesn't exist, no need to remove" path=/home/git/data/repositories
+time="2020-10-04T23:57:17+05:30" level=info msg="Starting file walker for /home/git/data/repositories/+gitaly/cache" path=/home/git/data/repositories/+gitaly/cache
+time="2020-10-04T23:57:17+05:30" level=info msg="Starting file walker for /home/git/data/repositories/+gitaly/state" path=/home/git/data/repositories/+gitaly/state
+time="2020-10-04T23:57:17+05:30" level=info msg="cleared all cache object files in /home/git/data/repositories/+gitaly/tmp/diskcache061881966 after 54.888µs" path=/home/git/data/repositories
+time="2020-10-04T23:57:18+05:30" level=info msg="listening at unix address" address=/home/git/gitlab/tmp/sockets/private/gitaly.socket
+time="2020-10-04T23:57:18+05:30" level=info msg="listening at unix address" address=/tmp/gitaly-internal044795344/internal.sock
+time="2020-10-04T23:57:18+05:30" level=info msg="finished tempdir cleaner walk" storage=default time_ms=0
+time="2020-10-04T23:57:18+05:30" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.0 supervisor.rss_threshold=209715200
+time="2020-10-04T23:57:18+05:30" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.1 supervisor.rss_threshold=209715200
+time="2020-10-04T23:57:18+05:30" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 614 /tmp/gitaly-internal044795344/ruby.0]" supervisor.name=gitaly-ruby.0 supervisor.pid=639
+time="2020-10-04T23:57:18+05:30" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 614 /tmp/gitaly-internal044795344/ruby.1]" supervisor.name=gitaly-ruby.1 supervisor.pid=642
+time="2020-10-04T23:57:18+05:30" level=info msg="PID 639 BUNDLE_GEMFILE=/home/git/gitaly/ruby/Gemfile" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 614 /tmp/gitaly-internal044795344/ruby.0]" supervisor.name=gitaly-ruby.0
+time="2020-10-04T23:57:18+05:30" level=info msg="PID 642 BUNDLE_GEMFILE=/home/git/gitaly/ruby/Gemfile" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 614 /tmp/gitaly-internal044795344/ruby.1]" supervisor.name=gitaly-ruby.1
+time="2020-10-04T23:57:20+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 614 /tmp/gitaly-internal044795344/ruby.0]" supervisor.name=gitaly-ruby.0
+time="2020-10-04T23:57:20+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 614 /tmp/gitaly-internal044795344/ruby.1]" supervisor.name=gitaly-ruby.1
+time="2020-10-04T23:57:20+05:30" level=error msg="shutting down" error="received signal \"terminated\""
+time="2020-10-04T23:59:36+05:30" level=info msg="Starting Gitaly" version="Gitaly, version 13.4.2"
+time="2020-10-04T23:59:36+05:30" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/usr/bin/git
+time="2020-10-04T23:59:36+05:30" level=info msg="clearing disk cache object folder" path=/home/git/data/repositories
+time="2020-10-04T23:59:36+05:30" level=info msg="moving disk cache object folder to /home/git/data/repositories/+gitaly/tmp/diskcache370042308" path=/home/git/data/repositories
+time="2020-10-04T23:59:36+05:30" level=info msg="disk cache object folder doesn't exist, no need to remove" path=/home/git/data/repositories
+time="2020-10-04T23:59:36+05:30" level=info msg="Starting file walker for /home/git/data/repositories/+gitaly/cache" path=/home/git/data/repositories/+gitaly/cache
+time="2020-10-04T23:59:36+05:30" level=info msg="Starting file walker for /home/git/data/repositories/+gitaly/state" path=/home/git/data/repositories/+gitaly/state
+time="2020-10-04T23:59:36+05:30" level=info msg="cleared all cache object files in /home/git/data/repositories/+gitaly/tmp/diskcache370042308 after 41.269µs" path=/home/git/data/repositories
+time="2020-10-04T23:59:37+05:30" level=info msg="finished tempdir cleaner walk" storage=default time_ms=0
+time="2020-10-04T23:59:37+05:30" level=info msg="listening at unix address" address=/home/git/gitlab/tmp/sockets/private/gitaly.socket
+time="2020-10-04T23:59:37+05:30" level=info msg="listening at unix address" address=/tmp/gitaly-internal603917206/internal.sock
+time="2020-10-04T23:59:37+05:30" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.0 supervisor.rss_threshold=209715200
+time="2020-10-04T23:59:37+05:30" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.1 supervisor.rss_threshold=209715200
+time="2020-10-04T23:59:37+05:30" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 614 /tmp/gitaly-internal603917206/ruby.0]" supervisor.name=gitaly-ruby.0 supervisor.pid=638
+time="2020-10-04T23:59:37+05:30" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 614 /tmp/gitaly-internal603917206/ruby.1]" supervisor.name=gitaly-ruby.1 supervisor.pid=639
+time="2020-10-04T23:59:38+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 614 /tmp/gitaly-internal603917206/ruby.0]" supervisor.name=gitaly-ruby.0
+time="2020-10-04T23:59:38+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 614 /tmp/gitaly-internal603917206/ruby.1]" supervisor.name=gitaly-ruby.1
+time="2020-10-04T23:59:38+05:30" level=error msg="shutting down" error="received signal \"terminated\""
+time="2020-10-05T00:03:49+05:30" level=info msg="Starting Gitaly" version="Gitaly, version 13.4.2"
+time="2020-10-05T00:03:49+05:30" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/usr/bin/git
+time="2020-10-05T00:03:49+05:30" level=info msg="clearing disk cache object folder" path=/home/git/data/repositories
+time="2020-10-05T00:03:49+05:30" level=info msg="moving disk cache object folder to /home/git/data/repositories/+gitaly/tmp/diskcache998612702" path=/home/git/data/repositories
+time="2020-10-05T00:03:49+05:30" level=info msg="disk cache object folder doesn't exist, no need to remove" path=/home/git/data/repositories
+time="2020-10-05T00:03:49+05:30" level=info msg="Starting file walker for /home/git/data/repositories/+gitaly/cache" path=/home/git/data/repositories/+gitaly/cache
+time="2020-10-05T00:03:49+05:30" level=info msg="Starting file walker for /home/git/data/repositories/+gitaly/state" path=/home/git/data/repositories/+gitaly/state
+time="2020-10-05T00:03:49+05:30" level=info msg="cleared all cache object files in /home/git/data/repositories/+gitaly/tmp/diskcache998612702 after 41.078µs" path=/home/git/data/repositories
+time="2020-10-05T00:03:50+05:30" level=info msg="finished tempdir cleaner walk" storage=default time_ms=0
+time="2020-10-05T00:03:50+05:30" level=info msg="listening at unix address" address=/home/git/gitlab/tmp/sockets/private/gitaly.socket
+time="2020-10-05T00:03:50+05:30" level=info msg="listening at unix address" address=/tmp/gitaly-internal945447360/internal.sock
+time="2020-10-05T00:03:50+05:30" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.0 supervisor.rss_threshold=209715200
+time="2020-10-05T00:03:50+05:30" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.1 supervisor.rss_threshold=209715200
+time="2020-10-05T00:03:50+05:30" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 629 /tmp/gitaly-internal945447360/ruby.0]" supervisor.name=gitaly-ruby.0 supervisor.pid=653
+time="2020-10-05T00:03:50+05:30" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 629 /tmp/gitaly-internal945447360/ruby.1]" supervisor.name=gitaly-ruby.1 supervisor.pid=655
+time="2020-10-05T00:03:50+05:30" level=info msg="PID 655 BUNDLE_GEMFILE=/home/git/gitaly/ruby/Gemfile" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 629 /tmp/gitaly-internal945447360/ruby.1]" supervisor.name=gitaly-ruby.1
+time="2020-10-05T00:03:50+05:30" level=info msg="PID 653 BUNDLE_GEMFILE=/home/git/gitaly/ruby/Gemfile" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 629 /tmp/gitaly-internal945447360/ruby.0]" supervisor.name=gitaly-ruby.0
+time="2020-10-05T00:03:59+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 629 /tmp/gitaly-internal945447360/ruby.0]" supervisor.name=gitaly-ruby.0
+time="2020-10-05T00:03:59+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 629 /tmp/gitaly-internal945447360/ruby.1]" supervisor.name=gitaly-ruby.1
+time="2020-10-05T00:03:59+05:30" level=error msg="shutting down" error="received signal \"terminated\""
+time="2020-10-05T00:04:01+05:30" level=info msg="Starting Gitaly" version="Gitaly, version 13.4.2"
+time="2020-10-05T00:04:01+05:30" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/usr/bin/git
+time="2020-10-05T00:04:01+05:30" level=info msg="clearing disk cache object folder" path=/home/git/data/repositories
+time="2020-10-05T00:04:01+05:30" level=info msg="moving disk cache object folder to /home/git/data/repositories/+gitaly/tmp/diskcache190994546" path=/home/git/data/repositories
+time="2020-10-05T00:04:01+05:30" level=info msg="disk cache object folder doesn't exist, no need to remove" path=/home/git/data/repositories
+time="2020-10-05T00:04:01+05:30" level=info msg="Starting file walker for /home/git/data/repositories/+gitaly/cache" path=/home/git/data/repositories/+gitaly/cache
+time="2020-10-05T00:04:01+05:30" level=info msg="Starting file walker for /home/git/data/repositories/+gitaly/state" path=/home/git/data/repositories/+gitaly/state
+time="2020-10-05T00:04:01+05:30" level=info msg="cleared all cache object files in /home/git/data/repositories/+gitaly/tmp/diskcache190994546 after 72.146µs" path=/home/git/data/repositories
+time="2020-10-05T00:04:02+05:30" level=info msg="finished tempdir cleaner walk" storage=default time_ms=0
+time="2020-10-05T00:04:02+05:30" level=info msg="listening at unix address" address=/home/git/gitlab/tmp/sockets/private/gitaly.socket
+time="2020-10-05T00:04:02+05:30" level=info msg="listening at unix address" address=/tmp/gitaly-internal927699572/internal.sock
+time="2020-10-05T00:04:02+05:30" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.0 supervisor.rss_threshold=209715200
+time="2020-10-05T00:04:02+05:30" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 742 /tmp/gitaly-internal927699572/ruby.1]" supervisor.name=gitaly-ruby.1 supervisor.pid=767
+time="2020-10-05T00:04:02+05:30" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.1 supervisor.rss_threshold=209715200
+time="2020-10-05T00:04:02+05:30" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 742 /tmp/gitaly-internal927699572/ruby.0]" supervisor.name=gitaly-ruby.0 supervisor.pid=770
+time="2020-10-05T00:04:02+05:30" level=info msg="PID 767 BUNDLE_GEMFILE=/home/git/gitaly/ruby/Gemfile" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 742 /tmp/gitaly-internal927699572/ruby.1]" supervisor.name=gitaly-ruby.1
+time="2020-10-05T00:04:02+05:30" level=info msg="PID 770 BUNDLE_GEMFILE=/home/git/gitaly/ruby/Gemfile" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 742 /tmp/gitaly-internal927699572/ruby.0]" supervisor.name=gitaly-ruby.0
+time="2020-10-05T00:04:57+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 742 /tmp/gitaly-internal927699572/ruby.0]" supervisor.name=gitaly-ruby.0
+time="2020-10-05T00:04:57+05:30" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /home/git/gitaly /home/git/gitaly/ruby/bin/gitaly-ruby 742 /tmp/gitaly-internal927699572/ruby.1]" supervisor.name=gitaly-ruby.1
+time="2020-10-05T00:04:57+05:30" level=error msg="shutting down" error="received signal \"terminated\""
